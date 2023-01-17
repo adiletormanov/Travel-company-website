@@ -1,0 +1,97 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+body{
+   font-family: 'Roboto', sans-serif;
+}
+.header{
+   background-image: url(../image/bg1.jpg);
+   background-size: cover;
+   height: 100vh;
+}
+.nav-item{
+   color: #fff;
+   text-decoration: none;
+   margin-right: 86px;
+   font-size: 38px;
+}
+.nav-item:hover{
+   color: rgb(224, 21, 48);
+}
+.nav-item:last-child{
+   margin-right: 0;
+}
+.nav{
+   display: flex;
+   justify-content: center;
+   padding-top: 34px;
+}
+.title{
+   color: #fff;
+   font-size: 85px;
+   width: 1114px;
+   text-align: center;
+   line-height: 94px;
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: 90px;
+   font-weight: 900;
+}
+.subtitle{
+color: #fff;
+font-size: 56px;
+text-align: center;
+line-height: 44px;
+margin-right: auto;
+margin-left: auto;
+margin-top: 45px;
+width: 514px;
+font-weight: 900;
+}
+.input{
+   width: 447px;
+   height: 64px;
+   font-size: 24px;
+   outline: none;
+   border: 4px solid #8D8D8D;
+   border-radius: 20px;
+}
+.forma{
+   margin-top: 30px;
+   text-align: center;
+}
+.btn:hover{
+background-color: #982cca;
+
+}
+.btn{
+   background-color:#5B89CE;
+   padding: 15px 18px;
+   color: #fff;
+   text-decoration: none;
+   font-size: 24px;
+   font-weight: 700;
+   border:2px #476443 solid;
+   border-radius: 25px;
+   width: 261px;
+}
+
+
+.button{
+   text-align: center;
+   margin-top: 60px;
+}
